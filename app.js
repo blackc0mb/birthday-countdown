@@ -1,7 +1,7 @@
 const timeLeft = document.getElementById('time-left')
 
 //month day year
-const birthday = new Date('06/19/2021')
+const birthday = new Date('07/19/2021')
 
 const second = 1000
 const minute = second * 60
@@ -16,7 +16,7 @@ function countDown() {
   console.log(timeSpan)
 
   if (timeSpan <= -day) {
-    timeLeft.innerHTML = 'Good luck!!'
+    timeLeft.innerHTML = 'Hope you had a nice Birthday!!'
     clearInterval(timerId)
     return
   }
